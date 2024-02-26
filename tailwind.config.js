@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'primary': ['Inter'],
         'error': ['Silkscreen']
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
       }
     },
   },

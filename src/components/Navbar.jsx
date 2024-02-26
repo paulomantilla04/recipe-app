@@ -8,36 +8,36 @@ const Navbar = () => {
     const iconStyle = "inline-flex hover:scale-90 transition-all duration-300";
 
   return (
-    <header className="bg-[#E8E8E0] rounded-full py-3 px-5 flex justify-between items-center fixed w-full z-10 font-primary">
+    <header className="bg-[#E8E8E0] rounded-full py-3 px-5 flex justify-between items-center sticky w-full z-10 font-primary">
         <div className="flex justify-start items-center space-x-4 text-black">
-            <Link to="/meats" href="" className={iconStyle}>
+            <Link to="/carnes" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><BeefIcon/></span>
-                <span className="hidden sm:block">Meats</span>
+                <span className="hidden sm:block">Carnes</span>
             </Link>
-            <Link to="/seafood" href="" className={iconStyle}>
+            <Link to="/mariscos" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><FishIcon/></span>
-                <span className="hidden sm:block">Seafood</span>
+                <span className="hidden sm:block">Mariscos</span>
             </Link>
-            <Link to="/veggie" href="" className={iconStyle}>
+            <Link to="/vegetarianos" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><SaladIcon/></span>
-                <span className="hidden sm:block">Veggie</span>
+                <span className="hidden sm:block">Vegetariano</span>
             </Link>
         </div>
         <div className="flex justify-center items-center hover:scale-90 transition-all duration-300">
             <Link to="/" href=""><img src={logo} className="w-32" alt="" /></Link>
         </div>
         <div className="flex justify-end items-center space-x-4 ">
-            <Link to="/beverages" href="" className={iconStyle}>
+            <Link to="/bebidas" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><CupSodaIcon/></span>
-                <span className="hidden sm:block">Beverages</span>
+                <span className="hidden sm:block">Bebidas</span>
             </Link>
-            <Link to="/cocktails" href="" className={iconStyle}>
+            <Link to="/cocteleria" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><WineIcon/></span>
-                <span className="hidden sm:block">Cocktails</span>
+                <span className="hidden sm:block">Coctelería</span>
             </Link>
-            <Link to="/desserts" href="" className={iconStyle}>
+            <Link to="/postres" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><CakeSliceIcon/></span>
-                <span className="hidden sm:block">Desserts</span>
+                <span className="hidden sm:block">Postres</span>
             </Link>
         </div>
     </header>

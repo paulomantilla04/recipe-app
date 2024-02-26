@@ -9,6 +9,8 @@ import Beverages from "./pages/Beverages";
 import Cocktails from "./pages/Cocktails";
 import Desserts from "./pages/Desserts";
 import Error from "./pages/Error";
+import Recipe from "./pages/Recipe";
+import data from './data/carne';
 
 function App() {
   return (
@@ -17,12 +19,14 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route path="meats" element={<Meats />}></Route>
-            <Route path="seafood" element={<Seafood/>}></Route>
-            <Route path="veggie" element={<Veggie/>}></Route>
-            <Route path="beverages" element={<Beverages/>}></Route>
-            <Route path="cocktails" element={<Cocktails/>}></Route>
-            <Route path="desserts" element={<Desserts/>}></Route>
+            <Route path="carnes" element={<Meats />}></Route>
+            <Route path="carnes/1" element={<Recipe info={data.burger}/>}></Route>
+            <Route path="carnes/2" element={<Recipe info={data.quesadillas}/>}></Route>
+            <Route path="mariscos" element={<Seafood/>}></Route>
+            <Route path="vegetarianos" element={<Veggie/>}></Route>
+            <Route path="bebidas" element={<Beverages/>}></Route>
+            <Route path="cocteleria" element={<Cocktails/>}></Route>
+            <Route path="postres" element={<Desserts/>}></Route>
             <Route path="*" element={<Error/>}></Route>
           </Routes>
       </Router>

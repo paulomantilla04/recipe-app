@@ -1,11 +1,13 @@
 import React from 'react'
 import Container from '../components/Container'
+import Grid from '../components/Grid'
 
 const Meats = () => {
   return (
-    <Container>
-        <div>Meats</div>
-    </Container>
+    <div className='flex flex-col items-center justify-center py-28'>
+      <h1 className='font-primary text-3xl font-extrabold'>CARNES</h1>
+      <Grid/>
+    </div>
   )
 }
 

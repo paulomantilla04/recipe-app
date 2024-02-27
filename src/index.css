@@ -4,3 +4,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-neutral-100:hover h2,
+.bg-neutral-100:hover p {
+  opacity: 1;
+}

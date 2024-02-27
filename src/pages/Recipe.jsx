@@ -10,9 +10,9 @@ const Recipe = ({info}) => {
     const [openIngredients, setIngredients] = useState(false);
 
   return (
-    <div className='flex flex-col items-center justify-center m-5'>
+    <div className='flex flex-col items-center justify-center py-20'>
 
-        <div className="flex flex-row max-[640px]:flex-col">
+        <div className="flex flex-row max-[640px]:flex-col items-center">
             <div className='w-[400px] h-[350px] m-3 max-[640px]:w-[300px] max-[640px]:h-[250px]'>
                 <img src={info.image} className='w-full h-full object-cover rounded-xl' alt="" />
             </div>

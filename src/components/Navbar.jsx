@@ -8,7 +8,7 @@ const Navbar = () => {
     const iconStyle = "inline-flex hover:scale-90 transition-all duration-300";
 
   return (
-    <header className="bg-[#E8E8E0] rounded-full py-3 px-5 flex justify-between items-center sticky w-full z-10 font-primary">
+    <header className="bg-[#E8E8E0] rounded-full py-3 px-5 flex justify-between items-center fixed w-full z-10 font-primary sm:text-xs lg:text-md shadow-md">
         <div className="flex justify-start items-center space-x-4 text-black">
             <Link to="/carnes" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><BeefIcon/></span>

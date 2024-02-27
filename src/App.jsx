@@ -2,11 +2,8 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Meats from "./pages/Meats";
-import Seafood from "./pages/Seafood";
+
 import Veggie from "./pages/Veggie";
-import Beverages from "./pages/Beverages";
-import Cocktails from "./pages/Cocktails";
 import Desserts from "./pages/Desserts";
 import Error from "./pages/Error";
 import Recipe from "./pages/Recipe";
@@ -14,6 +11,8 @@ import carne from "./data/carne";
 import marisco from './data/mariscos';
 import bebidas from './data/bebidas';
 import cocteleria from "./data/cocteleria";
+import Page from "./pages/Page";
+import mariscos from "./data/mariscos";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
 
           {/* CARNES */}
-          <Route path="carnes" element={<Meats />}></Route>
+          <Route path="carnes" element={<Page title="CARNES" data={carne} />}></Route>
           <Route
             path="carnes/1"
             element={<Recipe info={carne.burger} />}
@@ -41,7 +40,7 @@ function App() {
           ></Route>
 
           {/* MARISCOS */}
-          <Route path="mariscos" element={<Seafood />}></Route>
+          <Route path="mariscos" element={<Page title="MARISCOS" data={mariscos} />}></Route>
           <Route path="mariscos/1" element={<Recipe info={marisco.ensalada}/>}/>
           <Route path="mariscos/2" element={<Recipe info={marisco.aguachile}/>}/>
           <Route path="mariscos/3" element={<Recipe info={marisco.ceviche}/>}/>
@@ -52,15 +51,15 @@ function App() {
           <Route path="vegetarianos" element={<Veggie />}></Route>
 
           {/* BEBIDAS */}
-          <Route path="bebidas" element={<Beverages />}></Route>
+          <Route path="bebidas" element={<Page title="BEBIDAS" data={bebidas} />}></Route>
           <Route path="bebidas/1" element={<Recipe info={bebidas.pepino}/>}/>
-          <Route path="bebidas/2" element={<Recipe info={bebidas.jamaica}/>}/>
-          <Route path="bebidas/3" element={<Recipe info={bebidas.horchata}/>}/>
+          <Route path="bebidas/2" element={<Recipe info={bebidas.horchata}/>}/>
+          <Route path="bebidas/3" element={<Recipe info={bebidas.jamaica}/>}/>
           <Route path="bebidas/4" element={<Recipe info={bebidas.naranjada}/>}/>
           <Route path="bebidas/5" element={<Recipe info={bebidas.mango}/>}/>
           
-          {/* BEBIDAS */}
-          <Route path="cocteleria" element={<Cocktails />}></Route>
+          {/* COCTELERIA */}
+          <Route path="cocteleria" element={<Page title="COCTELERIA" data={cocteleria} />}></Route>
           <Route path="cocteleria/1" element={<Recipe info={cocteleria.baileys}/>}/>
           <Route path="cocteleria/2" element={<Recipe info={cocteleria.mimosa}/>}/>
           <Route path="cocteleria/3" element={<Recipe info={cocteleria.cantarito}/>}/>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const GridItem = ({ image, title, difficulty, isDouble, to }) => {
     const boxStyle = 'bg-neutral-100 border-2 rounded-xl p-2 flex flex-col items-center justify-end transition-all duration-300 relative'; 
-    const contentStyle = 'opacity-0 transition-opacity duration-300';
+    const contentStyle = 'opacity-0 transition-all duration-300';
     const overlayStyle = 'rounded-xl absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 hover:opacity-70 transition-all duration-300';
 
     return (

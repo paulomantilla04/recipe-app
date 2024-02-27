@@ -1,8 +1,8 @@
-import burger from './assets/burger.webp';
-import quesadillas from './assets/quesadillas.webp';
-import pollo from './assets/pollo-frito.webp';
-import filet from './assets/filet-mignon.webp';
-import roast from './assets/roast-beef.webp';
+import burger from '../assets/burger.webp';
+import quesadillas from '../assets/quesadillas.webp';
+import pollo from '../assets/pollo-frito.webp';
+import filet from '../assets/filet-mignon.webp';
+import roast from '../assets/roast-beef.webp';
 
 const carne = {
     burger: {

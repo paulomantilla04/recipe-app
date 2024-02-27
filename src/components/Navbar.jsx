@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-    const iconStyle = "inline-flex hover:scale-90 transition-all duration-300";
+    const iconStyle = "inline-flex hover:scale-90 transition-all duration-300 items-center";
 
   return (
     <header className="bg-[#E8E8E0] rounded-full py-3 px-5 flex justify-between items-center fixed w-full z-10 font-primary sm:text-xs lg:text-md shadow-md">

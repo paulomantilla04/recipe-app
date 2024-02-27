@@ -31,7 +31,7 @@ const Modal = ({ open, onClose, title, subtitle }) => {
             <h3 className="text-lg font-bold text-gray-800">{title}</h3>
             <ul className="text-sm text-gray-500 text-left">
                 {subtitle.map((item, index) =>
-                    <li key={index}>-{item}</li>
+                    <li key={index}>{index + 1}. {item}</li>
                 )}
             </ul>
           </div>

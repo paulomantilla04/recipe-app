@@ -1,11 +1,14 @@
 import React from "react";
 import Container from "../components/Container";
+import Grid from "../components/Grid";
+import data from "../data/cocteleria";
 
 const Cocktails = () => {
   return (
-    <Container>
-      <div>Cocktails</div>
-    </Container>
+    <div className="flex flex-col items-center justify-center py-28">
+      <h1 className="font-primary text-3xl font-extrabold">COCTELERÍA</h1>
+      <Grid data={data} />
+    </div>
   );
 };
 

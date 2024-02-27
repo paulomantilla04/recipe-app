@@ -12,6 +12,8 @@ import Error from "./pages/Error";
 import Recipe from "./pages/Recipe";
 import carne from "./data/carne";
 import marisco from './data/mariscos';
+import bebidas from './data/bebidas';
+import cocteleria from "./data/cocteleria";
 
 function App() {
   return (
@@ -48,8 +50,24 @@ function App() {
 
 
           <Route path="vegetarianos" element={<Veggie />}></Route>
+
+          {/* BEBIDAS */}
           <Route path="bebidas" element={<Beverages />}></Route>
+          <Route path="bebidas/1" element={<Recipe info={bebidas.pepino}/>}/>
+          <Route path="bebidas/2" element={<Recipe info={bebidas.jamaica}/>}/>
+          <Route path="bebidas/3" element={<Recipe info={bebidas.horchata}/>}/>
+          <Route path="bebidas/4" element={<Recipe info={bebidas.naranjada}/>}/>
+          <Route path="bebidas/5" element={<Recipe info={bebidas.mango}/>}/>
+          
+          {/* BEBIDAS */}
           <Route path="cocteleria" element={<Cocktails />}></Route>
+          <Route path="cocteleria/1" element={<Recipe info={cocteleria.baileys}/>}/>
+          <Route path="cocteleria/2" element={<Recipe info={cocteleria.mimosa}/>}/>
+          <Route path="cocteleria/3" element={<Recipe info={cocteleria.cantarito}/>}/>
+          <Route path="cocteleria/4" element={<Recipe info={cocteleria.tamarindo}/>}/>
+          <Route path="cocteleria/5" element={<Recipe info={cocteleria.negra}/>}/>
+
+
           <Route path="postres" element={<Desserts />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>

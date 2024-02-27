@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
-import Veggie from "./pages/Veggie";
+
 import Error from "./pages/Error";
 import Recipe from "./pages/Recipe";
 import carne from "./data/carne";
@@ -41,12 +41,12 @@ function App() {
           <Route path="mariscos/5" element={<Recipe info={marisco.caldo}/>}/>
 
           {/* POSTRES */}
-          <Route path="vegetarianos" element={<Page title="VEGETARIANO" data={veggie} />}></Route>
-          <Route path="vegetarianos/1" element={<Recipe info={veggie.wok}/>}/>
-          <Route path="vegetarianos/2" element={<Recipe info={veggie.ceviche}/>}/>
-          <Route path="vegetarianos/3" element={<Recipe info={veggie.empanadas}/>}/>
-          <Route path="vegetarianos/4" element={<Recipe info={veggie.verduras}/>}/>
-          <Route path="vegetarianos/5" element={<Recipe info={veggie.pasta}/>}/>
+          <Route path="vegetariano" element={<Page title="VEGETARIANO" data={veggie} />}></Route>
+          <Route path="vegetariano/1" element={<Recipe info={veggie.wok}/>}/>
+          <Route path="vegetariano/2" element={<Recipe info={veggie.ceviche}/>}/>
+          <Route path="vegetariano/3" element={<Recipe info={veggie.empanadas}/>}/>
+          <Route path="vegetariano/4" element={<Recipe info={veggie.verduras}/>}/>
+          <Route path="vegetariano/5" element={<Recipe info={veggie.pasta}/>}/>
 
           {/* BEBIDAS */}
           <Route path="bebidas" element={<Page title="BEBIDAS" data={bebidas} />}></Route>

@@ -18,7 +18,7 @@ const Navbar = () => {
                 <span className="sm:mr-2 text-2xl"><FishIcon/></span>
                 <span className="hidden sm:block">Mariscos</span>
             </Link>
-            <Link to="/vegetarianos" href="" className={iconStyle}>
+            <Link to="/vegetariano" href="" className={iconStyle}>
                 <span className="sm:mr-2 text-2xl"><SaladIcon/></span>
                 <span className="hidden sm:block">Vegetariano</span>
             </Link>

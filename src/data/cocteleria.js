@@ -18,6 +18,8 @@ const cocteleria = {
             "Cambia a un bowl y agrega el whisky, bate para integrar y deja enfriar.",
             "Sirve en un vaso bajo con hielos y acompaña con unos ricos churros.",
         ],
+        link: "cocteleria/1",
+        category: "Coctelería"
     },
     mimosa: {
         title: "Mimosa",
@@ -29,6 +31,8 @@ const cocteleria = {
             "Sobre una tabla corta y exprime las naranjas para obtener el jugo.",
             "En una copa flauta vierte el jugo de naranja y rellena con la champaña, decora con un cuarto de naranja y una cereza."
         ],
+        link: "cocteleria/2",
+        category: "Coctelería"
     },
     cantarito: {
         title: "Cantarito",
@@ -57,6 +61,8 @@ const cocteleria = {
             "Coloca el hielo en el cantarito ya escarchado con tamarindo y chile, exprime el limón, agrega la sal, el jugo de naranja, el jugo de toronja, el tequila, los gajos de naranja y toronja al gusto y rellena con el refresco de toronja. Finalmente, mezcla muy bien con ayuda de una cuchara o agitador.",
             "Decora el cantarito con más rodajas de naranja escarchada y toronja. Disfruta.",
         ],
+        link: "cocteleria/3",
+        category: "Coctelería"
     },
     tamarindo: {
         title: "Michelada de Tamarindo",
@@ -80,6 +86,8 @@ const cocteleria = {
             "Mezcla el chile en polvo y el azúcar en un plato extendido. Baña el borde del tarro cervecero con pulpa de tamarindo y luego escarcha con la mezcla de chile y azúcar.",
             "Vierte el jarabe de tamarindo en el tarro escarchado, agrega el jugo de naranja, el jugo de limón y la salsa maggi; mezcla y añade la cerveza. Decora con jícama, gomitas de tamarindo y chamoy líquido."
         ],
+        link: "cocteleria/4",
+        category: "Coctelería"
     },
     negra: {
         title: "Michelada Negra",
@@ -107,6 +115,8 @@ const cocteleria = {
             "Agrega poco a poco la cerveza con el tarro.",
             "Decora tu tarro con un palillo y tres aceitunas y una rebanada de pepino."
         ],
+        link: "cocteleria/5",
+        category: "Coctelería"
     },
 }
 

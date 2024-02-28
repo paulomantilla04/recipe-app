@@ -16,7 +16,9 @@ const carne = {
             "Dividimos la carne en cuatro partes y apretamos un poco cada una para hacer la forma de la hamburguesa.",
             "Por otro, tostamos el pan en una plancha por la parte interna hasta que esté dorado y untamos un poquito de aceite.",
             "A continuación, lavamos y cortamos la lechuga, el tomate y el pepinillo y reservamos. Hacemos las hamburguesas en una plancha, una parrilla o una sartén y cuando estén listas colocamos en el pan. Directamente ponemos encima una loncha de queso cheddar y cerramos el pan."
-        ]
+        ],
+        link: "carnes/1",
+        category: "Carnes"
     },
     quesadillas: {
         title: "Quesadillas de carne",
@@ -31,6 +33,8 @@ const carne = {
             "Es momento de volver a introducir la carne en la sartén con las verduras. Mezcla bien y sazona con sal y pimienta al gusto.",
             "Finalmente, coloca una tortilla en otra sartén a fuego medio. Espolvorea la mitad de la tortilla con el queso rallado y añade la mezcla de carne y verduras sobre el queso. Dobla la tortilla a la mitad y cocina hasta que el queso se derrita y la tortilla esté dorada."
         ],
+        link: "carnes/2",
+        category: "Carnes"
     },
     pollo: {
         title: "Pollo Frito",
@@ -45,6 +49,8 @@ const carne = {
             "Si quieres puedes usar un termómetro para carne para asegurarte de que alcancen una temperatura interna de 73 grados centígrados (165 grados Fahrenheit).",
             "Cuando las pechugas estén cocidas, colócalas en un plato con papel de cocina para absorber cualquier exceso de aceite. Sirve inmediatamente y disfruta de tu delicioso pollo frito crujiente. Puedes acompañarlo con tus verduras o patatas fritas favoritas.",
         ],
+        link: "carnes/3",
+        category: "Carnes"
     },
     filet: {
         title: "Filet Mignon",
@@ -57,6 +63,8 @@ const carne = {
             "Cocinar durante 6 minutos por lado si te gusta en su punto, ligeramente poco hecha en su interior. Si te gusta algo más cruda en el interior sería 5 minutos. Para carne más hecha nos vamos a 7 minutos por lado.",
             "Importante, una vez cocinada la carne retirarla de la plancha y dejar que repose al menos 5 minutos antes de servir.",
         ],
+        link: "carnes/4",
+        category: "Carnes"
     },
     roastBeef: {
         title: "Roast Beef",
@@ -75,6 +83,8 @@ const carne = {
             "Pasados otros 17 minutos, sacamos del horno y dejamos enfriar para cortar.",
             "Servimos, acompañado de las cebollitas.",
         ],
+        link: "carnes/5",
+        category: "Carnes"
     },
 };
 

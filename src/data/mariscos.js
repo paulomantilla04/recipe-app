@@ -16,7 +16,9 @@ const mariscos = {
             "Ponemos el camarón en un bowl y agregamos el limón.",
             "Agregamos todas las verduras y sal si lo desean e integramos.",
             "Servimos nuestro plato adornamos con aguacate y mayonesa."
-        ]
+        ],
+        link: "mariscos/1",
+        category: "Mariscos"
     },
     aguachile: {
         title: "Aguachile de Camarón",
@@ -28,7 +30,10 @@ const mariscos = {
             "Limpiar camarones, retirar cabeza, cascara y cortar en mariposa, colocar sobre el plato en el que se vaya a presentar.",
             "Licuar jugo de limón, ajo, chile y cilantro.",
             "Bañar los camarones con el licuado, agregar pepino cortado en rebanadas y cebolla en plumas, terminar con pimienta recién molida.",
-        ]
+        ],
+        link: "mariscos/2",
+        category: "Mariscos"
+
     },
     ceviche: {
         title: "Ceviche de pescado",
@@ -42,6 +47,9 @@ const mariscos = {
             "Combinar el pescado sin el jugo junto con la mezcla anterior.",
             "Servir frío acompañado de tostadas de maíz horneadas."
         ],
+        link: "mariscos/3",
+        category: "Mariscos"
+
     },
     camarones: {
         title: "Camarones Empanizados",
@@ -58,6 +66,9 @@ const mariscos = {
             "Fríe los camarones rebozados cuando el aceite esté caliente hasta que se doren. Una vez dorados, resérvalos sobre papel absorbente para retirar el exceso de aceite.",
             "¡Listo! Ya puedes servir la receta de camarones empanizados fritos, acompañada de tu salsa favorita, como por ejemplo salsa teriyaki, salsa de soya, salsa tártara, salsa bbq..."
         ],
+        link: "mariscos/4",
+        category: "Mariscos"
+
     },
     caldo: {
         title: "Caldo de Pescado",
@@ -69,7 +80,10 @@ const mariscos = {
             "Licúa los jitomates con el Concentrado de Tomate con Pollo, los chiles guajillo y ½ litro de agua, cuela y calienta en una olla durante 5 minutos o hasta que cambie de color ligeramente.",
             "Agrega 1 ½ litros de agua, mezcla y cocina hasta que hierva ligeramente. Agrega las verduras y el pescado; cocina hasta que estén ligeramente suaves.",
             "Sirve el caldo acompañado de limón."
-        ]
+        ],
+        link: "mariscos/5",
+        category: "Mariscos"
+
     }
 }
 

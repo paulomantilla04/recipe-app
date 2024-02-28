@@ -26,7 +26,10 @@ const postres = {
         "En otro recipiente mezclar la harina con el azúcar, la sal y las nueces.",
         "Incorporar a la mezcla de cacao y remover bien pero con suavidad, hasta tener una masa homogénea, sin grumos secos.",
         "Llenar el molde y hornear durante unos 35-40 minutos. Esperar a que se enfríe antes de cortar."
-    ]
+    ],
+    link: "postres/1",
+    category: "Postres"
+
   },
   carlota: {
     title: "Carlota de Limón",
@@ -49,6 +52,9 @@ const postres = {
       "Meter al congelador 2 horas y luego bajarlo al refrigerador 2 horas más.",
       "¡A disfrutar!",
     ],
+    link: "postres/2",
+    category: "Postres"
+
   },
   sandwich: {
     title: "Sándwich de Helado",
@@ -77,6 +83,9 @@ const postres = {
       "Hornea las galletas de chocolate a 180 °C durante 10 minutos o hasta que estén bien cocidas.",
       "Coloca un poco de helado de vainilla en una de las galletas y cierra con otra galleta, presiona ligeramente y disfruta de tu sándwich de chocolate con helado.",
     ],
+    link: "postres/3",
+    category: "Postres"
+
   },
   cheesecakeLotus: {
     title: "Cheesecake de Lotus",
@@ -102,6 +111,9 @@ const postres = {
       "Coloca la mezcla de galleta con mantequilla en un aro de repostería y aplana con una cuchara. Coloca la mezcla de queso encima y refrigera por 2 horas o hasta que esté firme.",
       "Calienta ligeramente la Crema de Lotus Biscoff en el microondas. Vierte sobre el cheesecake y decora con Lotus Biscoff molidas y enteras.",
     ],
+    link: "postres/4",
+    category: "Postres"
+
   },
   muffins: {
     title: "Muffins de Zanahoria",
@@ -127,6 +139,9 @@ const postres = {
       "Por último, agregar la nuez y la zanahoria integrando en forma envolvente para evitar sacar el aire a la preparación.",
       "Poner la preparación anterior distribuida en 15 panecillos, llenar hasta tres cuartas partes y hornear a 180 °C por 25 minutos aproximadamente o hasta que al meter un palillo este salga limpio.",
     ],
+    link: "postres/5",
+    category: "Postres"
+
   },
 };
 

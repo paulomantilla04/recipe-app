@@ -32,7 +32,10 @@ const veggie = {
           "Calienta el aceite de ajonjolí en un wok a fuego medio, agrega la cebolla de cambray y el ajo y cocina por 2 minutos. Posteriormente, añade la zanahoria, el pimiento verde, las setas, el brócoli y los edamames y cocina de 5 a 7 minutos.",
           "Cuando las verduras estén cocidas, pero crujientes, incorpora los fideos, la salsa de soya preparada y cocina por 2 minutos más. Reserva el wok de verduras.",
           "Sirve en un bowl y decora con nuez de la India tostada."
-        ]
+        ],
+        link:"vegetariano/1",
+        category: "Vegetariano"
+
     },
     ceviche: {
         title: "Ceviche de Panela",
@@ -58,7 +61,9 @@ const veggie = {
           "Mezcla el jugo de limón, el aceite de oliva, el orégano molido, el vinagre de chiles, la sal y la pimienta en un bowl hasta integrar todos los ingredientes. Reserva.",
           "Agrega el queso panela, el pepino, el tomate verde y la cebolla morada en un bowl. Posteriormente, baña con la vinagreta y refrigera el ceviche por 1 hora.",
           "Sirve el ceviche de panela en un bowl, decora con hojas de cilantro y cebolla morada. ¡Disfruta con tostadas horneadas!"
-        ]
+        ],
+        link:"vegetariano/2",
+        category: "Vegetariano"
     },
     empanadas: {
         title: "Empanadas Vegetarianas",
@@ -87,7 +92,9 @@ const veggie = {
           "Coloca las discos de empanada sobre una charola con papel encerado, agrega de una a dos cucharadas del relleno, añade un poco de queso manchego y barniza toda la orilla de las empanadas con el huevo batido. Dobla y usa un tenedor para cerrar y que no se salga el relleno. Barniza las empanadas con el huevo.",
           "Hornea las empanadas vegetarianas a 180 °C por 30 minutos.",
           "Sirve las empanadas vegetarianas en una tabla y acompaña con chimichurri."
-        ]
+        ],
+        link:"vegetariano/3",
+        category: "Vegetariano"
     },
     verduras: {
         title: "Verduras Gratinadas",
@@ -120,7 +127,9 @@ const veggie = {
           "Pasa las verduras a un refractario y vierte sobre ellas la mezcla de Mayonesa con Aceite de Ajonjolí. Tapa con aluminio.",
           "Hornea las verduras a 200°C por 10 minutos, retira el aluminio y hornea por 5 minutos más o hasta que la superficie esté dorada.",
           "Sirve las verduras gratinadas directamente del refractario y decora con ramitas de eneldo."
-        ]
+        ],
+        link:"vegetariano/4",
+        category: "Vegetariano"
     },
     pasta: {
         title: "Pasta Verde",
@@ -150,7 +159,9 @@ const veggie = {
           "Licúa el chile poblano, la calabaza, las nueces, el ajo, el cilantro, la crema, la sal y la pimienta hasta obtener una mezcla homogénea.",
           "Calienta el aceite en una sartén a fuego medio, vierte la salsa y reduce un poco, luego añade sal y pimienta a tu gusto. Una vez que la salsa de chile poblano esté lista, incorpora el Fettuccine y mezcla bien. Finalmente, agrega el chile poblano y los granos de elote.",
           "Sirve la pasta verde con chile poblano y decora con granos de elote y un poco de queso."
-        ]
+        ],
+        link:"vegetariano/5",
+        category: "Vegetariano"
     }
 
 }

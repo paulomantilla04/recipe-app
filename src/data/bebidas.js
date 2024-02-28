@@ -16,6 +16,8 @@ const bebidas = {
             "Agregar el jugo de los limones.",
             "Servir el agua fresca."
         ],
+        link: "bebidas/1",
+        category: "Bebidas"
     },
     horchata: {
         title: "Horchata",
@@ -28,6 +30,8 @@ const bebidas = {
             "Agrega a la licuadora el arroz con el agua de remojo, la leches, el agua, la esencia de vainilla, el azúcar, la canela y licúa hasta obtener una mezcla sin grumos. Cuela y vierte en una jarra con hielos.",
             "Sirve el agua en vasos y decora con rajas de canela."
         ],
+        link: "bebidas/2",
+        category: "Bebidas"
     },
     jamaica: {
         title: "Jamaica con Guayaba",
@@ -43,6 +47,8 @@ const bebidas = {
             "Por último, vacía también la guayaba licuada pasando por un colador antes. A continuación, agrega 3 tazas más de agua y mezcla hasta que se integren.",
             "Prepara un vaso con hielo al gusto y sirve. ¡Ya puedes disfrutar de esta agua de Jamaica con guayaba! Cuéntanos en los comentarios tu opinión y comparte con nosotros una fotografía del resultado final."
         ],
+        link: "bebidas/3",
+        category: "Bebidas"
     },
     naranjada: {
         title: "Naranjada",
@@ -59,6 +65,8 @@ const bebidas = {
             "A la hora de servirla reparte hielos en los vasos, cantidad al gusto, y por encima la naranjada. Remueve un poco con una cuchara para que se mezclen los ingredientes con el majado, y ya la tienes lista.",
             "Puedes decorar los vasos con las medias rodajas de naranja que habíamos reservado antes."
         ],
+        link: "bebidas/4",
+        category: "Bebidas"
     },
     mango: {
         title: "Mango cremoso",
@@ -70,6 +78,8 @@ const bebidas = {
             "Licúa el mango junto con la leche condensada, la leche evaporada y la vainilla, hasta integrar muy bien.",
             "Añade suficiente hielo en una jarra y vierte el agua, enseguida agrega la mezcla de mango e incorpora bien y si lo deseas puedes agregar azúcar al gusto. ¡Listo! Decora con cubitos de mango."
         ],
+        link: "bebidas/5",
+        category: "Bebidas"
     }
 }
 

@@ -9,3 +9,16 @@
      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTM1NngyZWxrMDBwbnNzeDR5NGVjYnk3dWV5MndtZzhnYnZsaG92aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2IudUHdI075HL02Pkk/giphy.gif" width=360>
   </div>
 
+  <div align="center">
+    <h3>Tecnologías usadas para este proyecto 🧑‍💻</h3>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" width=40 height=40>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" width=40 height=40>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" width=40 height=40>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" width=40 height=40>
+  </div>
+
+  <div align="center">
+    <h1>Nota 📖</h1>
+    <p>No tengo idea como vayan a evaluar el repo, pero de cualquier manera ya lo subí a vercel: https://recipe-app-paulo.vercel.app/</p>
+    
+  </div>

@@ -1,6 +1,6 @@
-# React + Vite
+# Recetario Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este recetario es parte de un frontend hackathon por parte de la rama estudiantil de la IEEE de la Escuela Superior de Tlahuelilpan.
 
 Currently, two official plugins are available:
 

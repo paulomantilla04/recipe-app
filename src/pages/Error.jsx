@@ -5,7 +5,7 @@ import sad from '../assets/sad.svg';
 
 const Error = () => {
   return (
-    <div className='parent h-screen flex items-center justify-center gap-10 bg-[#ffffff] max-[640px]:flex-col select-none'>
+    <div className='parent h-screen flex items-center justify-center gap-10 bg-[#F0F5EF] max-[640px]:flex-col select-none'>
         <div><img src={sad} className="w-72 animate-spin-slow drop-shadow-xl max-[640px]:w-60"alt="" /></div>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-7xl font-error'>OOPS!</h1>
